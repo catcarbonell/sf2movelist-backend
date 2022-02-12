@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "characters",
+  "info": {
+    "singularName": "character",
+    "pluralName": "characters",
+    "displayName": "character",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "pic": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "ultra": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "shotokan",
+        "charge",
+        "grappler",
+        "unique"
+      ]
+    },
+    "photo": {
+      "type": "string"
+    },
+    "moveset": {
+      "type": "component",
+      "repeatable": true,
+      "component": "special.special"
+    }
+  }
+}

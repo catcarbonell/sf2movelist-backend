@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_special_specials",
+  "info": {
+    "displayName": "special",
+    "icon": "bomb"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "moveset": {
+      "type": "string"
+    }
+  }
+}
